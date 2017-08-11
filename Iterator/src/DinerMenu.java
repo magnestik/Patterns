@@ -1,9 +1,9 @@
-public class DinerMenu {
-    static final int MAX_ITEMS = 6;
-    int numberOfItems = 0;
-    MenuItem[] menuItems;
+class DinerMenu {
+    private static final int MAX_ITEMS = 6;
+    private int numberOfItems = 0;
+    private MenuItem[] menuItems;
 
-    public DinerMenu() {
+    DinerMenu() {
         menuItems = new MenuItem[MAX_ITEMS];
 
         addItem("Vegetarian BLT",
@@ -36,7 +36,7 @@ public class DinerMenu {
         }
     }
 
-    public MenuItem[] getMenuItems() {
+    MenuItem[] getMenuItems() {
         return menuItems;
     }
 

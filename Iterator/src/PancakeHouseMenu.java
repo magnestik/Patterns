@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 
-public class PancakeHouseMenu {
-    ArrayList menuItems;
+class PancakeHouseMenu {
+    private ArrayList menuItems;
 
-    public PancakeHouseMenu() {
+    PancakeHouseMenu() {
         menuItems = new ArrayList();
 
         addItem("K&B's Pancake Breakfast",
@@ -32,7 +32,7 @@ public class PancakeHouseMenu {
         menuItems.add(menuItem);
     }
 
-    public ArrayList getMenuItems() {
+    ArrayList getMenuItems() {
         return menuItems;
     }
 
